@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .typing{
+            width: 20ch;
+            /* 设置最终宽度为20个字符 */
+            text-wrap: nowrap;
+            overflow: hidden;/* 超出宽度部分隐藏 */
+            
+            animation: typeing 2s steps(20) infinite alternate; /*逐个显示动画*/
+        }
+        @keyframes typeing {
+            from { width: 0ch;} /* 宽度从0开始*/
+        }
+    </style>
+</head>
+<body>
+    <div class="typing">
+        1234567890qwertyuiopasdfghjklzxcvbnmloiku
+    </div>
+</body>
+</html>
