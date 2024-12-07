@@ -1,0 +1,49 @@
+.bg1 {
+    background-color: #ffffff;
+}
+.bg2 {
+    background-color: #e5e6ec;
+}
+
+.wid-100{
+    width: 100px;
+}
+.hei-50{
+    height: 50px;
+}
+.hei-20{
+    height: 20px;
+}
+.box-50{
+    width: 50px;
+    height: 50px;
+}
+.box-30{
+    width: 30px;
+    height: 30px;
+}
+.box-20 {
+    width: 20px;
+    height: 20px;
+}
+.box-40-10{
+    width: 50px;
+    height: 10px
+}
+.bor-radius1 {
+    border-radius: 4px;
+}
+.bor-radius2 {
+    border-radius: 50%;
+}
+.margin-bom-10 {
+    margin-bottom: 10px;
+}
+/* 0 0 5px 3px #000 */
+.box-show {
+    box-shadow: 0 0 5px 3px #e4e4e4;
+}
+.icon {
+    height: 30px; 
+    width: 30px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 方案 1  prefers-color-scheme    CSS媒体特性，用户检测用户是否将系统的主题色设置为亮色或黑色
+    代码冗长：需要为每个模式定义单独的样式块。
+    维护困难：当项目中有大量深浅模式样式时，修改和扩展变得复杂。
+
+    实际工作中 会使用一些库（如：tailwindcss）来实现主题切换。
+    */
+    /* @media(prefers-color-scheme:dark) {
+        body {
+            color: #fff;
+            background-color: #222;
+        }
+    }
+    @media(prefers-color-scheme:light) {
+        body {
+            color:#333;
+            background-color: #fff;
+        }
+
+    } */
+
+
+    /* 方案2 全新的 css 属性函数 light-dark()，无效，需要检查属性兼容 */
+    body {
+        color: light-dark(#2bac70, #f0f0f0);
+        background-color: light-dark(#4d4c95, #e2df1d);
+    }
+</style>
+<body>
+     网页主题
+</body>
+</html>
