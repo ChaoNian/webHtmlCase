@@ -46,4 +46,13 @@
 .icon {
     height: 30px; 
     width: 30px;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
